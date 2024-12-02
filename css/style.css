@@ -16,6 +16,8 @@ body,
 img,
 .page-content-box {
     border: 0.2rem ridge rgb(23, 93, 108);
+    resize: both;
+    overflow: auto;
 
 }
 .refer-page,
@@ -81,6 +83,10 @@ img {
     margin: 0.5em auto;
     width: 20em;
     height: auto;
+}
+.img {
+    resize: both;
+    overflow: auto;
 }
 
 h2 {
