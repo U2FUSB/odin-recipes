@@ -18,6 +18,32 @@ img,
     border: 0.2rem ridge rgb(23, 93, 108);
 
 }
+.refer-page,
+.refer-homepage {
+    border: 0.1em outset rgb(0, 0, 0);
+    border-radius: 1em;
+    background-color: rgb(37, 37, 37);
+    padding: 1em 2em;
+    color: white;
+}
+.refer-page {
+    padding: 2em 4em;
+}
+.refer-page:hover,
+.refer-homepage:hover {
+    background-color: grey;
+    color: black;
+}
+.refer-page a,
+.refer-homepage a {
+    color: inherit;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: inherit;
+}
+.refer-page a {
+    font-size: 2em;
+}
 
 body {
     background-color: rgba(255, 255, 255, 0.75);
@@ -61,10 +87,12 @@ h2 {
     font-size: 2em;
     margin: 0.5em 0;
 }
+
 .page-content-box {
     margin: 1em auto;
     padding: 1em;
 }
+
 .page-content-box li {
     margin-left: 2em;
     padding: 0.5em;
