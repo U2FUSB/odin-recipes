@@ -8,13 +8,13 @@
 html {
     background-image: linear-gradient(124deg, rgba(41, 170, 196, 1) 18%, rgba(255, 255, 255, 1) 49%, rgba(38, 179, 185, 0.7455357142857143) 97%);
     background-attachment: fixed;
-    font-family: 'Apple Chancery', cursive;
 }
 
 body,
 .main-head,
 .main-content,
-img {
+img,
+.page-content-box {
     border: 0.2rem ridge rgb(23, 93, 108);
 
 }
@@ -23,11 +23,18 @@ body {
     background-color: rgba(255, 255, 255, 0.75);
     margin: 3rem;
     padding: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.main-head {
+.main-head,
+.page-head {
     text-align: center;
     font-size: 3em;
+}
+
+.page-head {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
 }
 
 .main-content {
@@ -37,6 +44,7 @@ body {
     padding: auto;
     list-style: none;
 }
+
 .main-content li {
     margin: 2em auto;
     font-size: 2em;
@@ -44,7 +52,20 @@ body {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 0.5em auto;
     width: 20em;
     height: auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+.page-content-box {
+    margin: 1em auto;
+    padding: 1em;
+}
+.page-content-box li {
+    margin-left: 2em;
+    padding: 0.5em;
 }
